@@ -1,0 +1,16 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.slide {
+  display: none;
+}
+
+button {
+  font-size: 40px;
+}
+
+.slide.slide--current {
+  font-size: 60px;
+  display: block;
+}
